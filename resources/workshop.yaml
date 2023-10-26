@@ -1,0 +1,25 @@
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
+kind: Workshop
+metadata:
+  name: tanzu-developer-workshop
+spec:
+  title: Tanzu Developer Workshop
+  description: A developers Workshop to get hands on with using Spring (and other languages) and Tanzu
+  vendor: vmware.com
+  difficulty: intermediate
+  duration: 4h
+  url: https://github.com/sdeeg-vmware/tanzu-developer-workshop
+  content:
+    #image: image.io/myimage:main
+    files: github.com/sdeeg-vmware/tanzu-developer-workshop
+  session:
+    namespaces:
+      budget: small
+    applications:
+      terminal:
+        enabled: true
+        layout: split
+      console:
+        enabled: true
+      editor:
+        enabled: true
