@@ -11,14 +11,13 @@ These are the apps in the demo suite and how they relate to each other.
 
 ## The Applications
 
-All the applications are targeted to run as Workloads on Tanzu Application Platform.  They can of course
-be run on any K8s, Tanzu Application Service, containers, stand alone, etc..
+All the applications are targeted to run as Workloads on Tanzu Application Platform.  They can of course be run on any K8s, Tanzu Application Service, containers, stand alone, etc..
 
 ### MCP
 
 [GitHub](https://github.com/sdeeg-vmware/mcp)
 
-The "Master Control Program".  A UI and Service in a single Spring Boot application using a structure based on the Spring Modulith project/opinions.
+The "Master Control Program".  A UI and Service in a single Java/Boot application using a structure based on the Spring Modulith project/opinions.
 
 #### MCP UI
 
@@ -45,13 +44,13 @@ This module in MCP is a simple sentence generator.  It uses a data set that cont
 
 [GitHub](https://github.com/sdeeg-vmware/ttt)
 
-Tic Tac Toe has two parts, both Java/Spring.  A UI to interact with the user, and a Service that manages games.  There is a UI that is embedable.  It is an example of a multi-module "mono-repo".  Useful to show how Tanzu developer tools are able to work with multiple projects at the same time.
+Tic Tac Toe has two parts, both Kotlin/Boot.  A UI to interact with the user, and a Service that manages games.  There is a UI that is embedable.  It is an example of a multi-module "mono-repo".  Useful to show how Tanzu developer tools are able to work with multiple projects at the same time.
 
 ### sqlrunner
 
 [GitHub](https://github.com/sdeeg-vmware/sqlrunner)
 
-Kotlin/Spring application that can make queries to a database via JDBC.  Single repo application.
+Kotlin/Boot application that can make queries to a database via JDBC.  Single repo application.
 
 ## Security
 
