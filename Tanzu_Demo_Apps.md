@@ -1,6 +1,8 @@
 # Tanzu Demo Apps
 
-As part of demonstrating the value of Tanzu products, it's useful to have a set of applications to use.  Especially if you want to dive into Spring concepts, like I do.
+As part of demonstrating the value of Tanzu products, it's useful to have a set of applications to use.  Especially if you want to dive into Spring concepts, like I do.  The various Spring apps are all based on Boot, but use different patterns.
+
+> The apps are in various stages of development from working relatively well (sqlrunner) to just being scaffolded (MCP).  (But how the app functions isn't really the point anyway.)
 
 These are the apps in the demo suite and how they relate to each other.
 
@@ -16,7 +18,7 @@ be run on any K8s, Tanzu Application Service, containers, stand alone, etc..
 
 [GitHub](https://github.com/sdeeg-vmware/mcp)
 
-A UI and Service in a single application based on the Spring Modulith project/opinions.
+The "Master Control Program".  A UI and Service in a single Spring Boot application using a structure based on the Spring Modulith project/opinions.
 
 #### MCP UI
 
@@ -43,13 +45,13 @@ This module in MCP is a simple sentence generator.  It uses a data set that cont
 
 [GitHub](https://github.com/sdeeg-vmware/ttt)
 
-Tic Tac Toe.  Two parts.  A UI to interact with the user, and a Service that manages games.  There is a UI that is embedable.  It is an example of a multi-module "mono-repo".  Useful to show how Tanzu developer tools are able to work with multiple projects at the same time.
+Tic Tac Toe has two parts, both Java/Spring.  A UI to interact with the user, and a Service that manages games.  There is a UI that is embedable.  It is an example of a multi-module "mono-repo".  Useful to show how Tanzu developer tools are able to work with multiple projects at the same time.
 
 ### sqlrunner
 
 [GitHub](https://github.com/sdeeg-vmware/sqlrunner)
 
-Kotlin/Spring application that can be used to make queries to a database via JDBC.  Single repo application.
+Kotlin/Spring application that can make queries to a database via JDBC.  Single repo application.
 
 ## Security
 
