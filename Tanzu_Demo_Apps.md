@@ -4,7 +4,7 @@ As part of demonstrating the value of Tanzu products, it's useful to have a set 
 
 > The apps are in various stages of development from working relatively well (sqlrunner) to just being scaffolded (MCP).  (But how the app functions isn't really the point anyway.)
 
-These are the apps in the demo suite and how they relate to each other.
+These are the apps in the demo suite and how they relate to each other.  It's probably about 60% correct at this point.
 
 ![Demo Application Architecture](./images/tanzu_demo_apps.jpg)
 ([miro](https://miro.com/app/board/uXjVNWvnuFw=/#tpicker-content) - internal)
